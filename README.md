@@ -33,6 +33,8 @@ eyeWitness: A safety application using an interactive map to show crime hotspots
 # Tech Stack
 
 Development: Google Maps API, Leaflet, MERN Stack
+
+
 Machine Learning: SciKit-learn, Tensorflow, HuggingFace
 
 
