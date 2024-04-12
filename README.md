@@ -29,6 +29,19 @@ eyeWitness: A safety application using an interactive map to show crime hotspots
 - Users can check the crime rate of regions they plan to visit and read comments about experiences of other users.
 - Users can report crimes they've experienced in specific locations, enhancing the application's accuracy through crowdsourcing.
 - Social media posts can be used for crowdsourcing people’s experiences to enhance criminal activity data by web scraping.
+  
+<img width="1440" alt="Screenshot 2024-04-12 at 4 05 18 PM" src="https://github.com/Palak-Kaushik/eye-Witness/assets/112189682/879b4f8e-c0cc-42e4-80d7-f46f35898ced">
+
+
+<img width="1440" alt="Screenshot 2024-04-12 at 4 17 34 PM" src="https://github.com/Palak-Kaushik/eye-Witness/assets/112189682/75896544-ed2c-4981-b874-4a18045c294f">
+
+
+
+<img width="1440" alt="Screenshot 2024-04-12 at 4 06 24 PM" src="https://github.com/Palak-Kaushik/eye-Witness/assets/112189682/11c38585-c759-469e-b997-ab38790172a4">
+
+<img width="1440" alt="Screenshot 2024-04-12 at 4 06 59 PM" src="https://github.com/Palak-Kaushik/eye-Witness/assets/112189682/9a3ae6a9-8b2c-45b2-b293-7e1dad097251">
+
+
 
 # Tech Stack
 
