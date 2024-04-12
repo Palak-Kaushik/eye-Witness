@@ -59,12 +59,12 @@
   font-size: 32px;
   font-family: News Cycle;
   font-weight: 700;
-  margin-top: 100px;
+  /* margin-top: 100px; */
 }
 
 .Rectangle8 {
   width: 100%;
-  height: 179px;
+  height: 160px;
   top: 488px;
   position: absolute;
   background: rgba(216, 194, 255, 0.32);
@@ -100,9 +100,16 @@
   font-weight: 400;
 }
 
+.CrimeRateIndexingGradient {
+  display: flex;
+  font-size: 20px;
+  justify-content: center;
+}
+
+
 .Rectangle10 {
   width: 100%;
-  height: 415px;
+  height: 615px;
   margin-top: 225px;
   background: rgba(216, 194, 255, 0.32);
   display: flex;
