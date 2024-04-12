@@ -1,0 +1,64 @@
+.ChatroomPage {
+    background-color: #f3f3f3; /* Light gray background */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.Chat {
+    background-color: #ffffff; /* White background */
+    padding: 40px; /* Added 'px' units */
+    margin-bottom: 40px; /* Increased margin for better separation */
+    border-radius: 10px; /* Rounded corners */
+   
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Added box shadow */
+}
+
+.Header {
+    background-color: #6a0dad; /* Purple background */
+    color: #ffffff; /* White text */
+    padding: 10px 20px; /* Increased padding */
+    border-radius: 5px; /* Rounded corners */
+    margin-bottom: 20px; /* Increased margin */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Added box shadow */
+}
+
+.Header p {
+    margin: 0; /* Remove default margin */
+}
+
+.Body {
+    font-size: 16px; /* Increased font size */
+    padding: 20px; /* Increased padding */
+}
+
+.Footer {
+    background-color: #6a0dad; /* Purple background */
+    color: #ffffff; /* White text */
+    padding: 10px 20px; /* Increased padding */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); /* Added box shadow */
+}
+
+.Footer p,
+.Footer button {
+    margin: 0 10px 0 0; /* Added margin for spacing between elements */
+}
+
+button {
+    background-color: #8a2be2; /* Darker purple background */
+    color: #ffffff; /* White text */
+    border: none; /* Removed border */
+    padding: 10px 20px; /* Increased padding */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+button:hover {
+    background-color: #6a0dad; /* Darker purple background on hover */
+}
+
+

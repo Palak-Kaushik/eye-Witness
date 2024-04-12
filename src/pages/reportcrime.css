@@ -1,0 +1,165 @@
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.crime-reporting {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #e3d5fc;
+}
+
+.header {
+    height: 80px; /* Adjusted height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #5A108F;
+}
+
+.title {
+    font-size: 24px; /* Decreased font size */
+    font-family: 'News Cycle', sans-serif;
+    font-weight: 700;
+    color: #fff;
+}
+
+.form-container {
+    width: 100%;
+    flex: 1; /* Changed height to flex-grow for flexibility */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-container {
+    width: 70%; /* Adjusted width */
+    margin: 10px 0; /* Simplified margin */
+}
+
+.input-container .label {
+    font-size: 14px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+    color: #5A108F;
+    margin-bottom: 5px;
+}
+
+.input-container input,
+.input-container textarea {
+    width: 100%;
+    height: 40px; /* Adjusted height */
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #D8C2FF;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    margin-top: 5px; /* Added margin-top for spacing */
+}
+
+.input-container textarea {
+    height: 120px;
+}
+
+.button-container {
+    width: 70%; /* Adjusted width */
+    margin-top: 20px; /* Increased margin */
+}
+
+.post-btn {
+    width: 100%;
+    height: 40px; /* Adjusted height */
+    background-color: #5A108F;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    cursor: pointer;
+}
+
+.footer {
+    width: 100%;
+    height: 100px; /* Adjusted height */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10%;
+    box-sizing: border-box;
+}
+
+.footer button {
+    width: 48%; /* Adjusted width */
+    height: 40px; /* Adjusted height */
+    border-radius: 6px;
+    color: #fff;
+    font-size: 15px;
+    font-family: 'News Cycle', sans-serif;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.join-discussion-btn,
+.see-crime-detail-btn {
+    width: 150px; /* Increased width */
+    height: 50px; /* Increased height */
+    border-radius: 8px; /* Adjusted border radius */
+    color: #fff;
+    font-size: 18px; /* Increased font size */
+    font-family: 'Mulish', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+.join-discussion-btn {
+    background-color: #5A108F;
+    width:180px
+}
+
+.see-crime-detail-btn {
+    background-color: #D8C2FF;
+}
+
+
+@media (max-width: 500px) {
+    .header {
+        height: 60px; /* Adjusted height for smaller screens */
+    }
+
+    .title {
+        font-size: 20px; /* Adjusted font size for smaller screens */
+    }
+
+    .input-container,
+    .button-container {
+        width: 90%; /* Adjusted width for smaller screens */
+    }
+
+    .input-container input,
+    .input-container textarea {
+        height: 36px; /* Adjusted height for smaller screens */
+    }
+
+    .footer {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .footer button {
+        width: 100%;
+        height: 40px; /* Adjusted height for smaller screens */
+        margin-bottom: 10px;
+    }
+}
+
+
