@@ -30,7 +30,7 @@ function LandingPage() {
     const loadMapScript = () => {
       if (!window.google) {
         const script = document.createElement('script');
-        script.src = `https://maps.googleapis.com/maps/api/js?key=AIzaSyBeiNpm9-tu0VjY_CdQmJRD67uM30jDmVA&callback=initMap`;
+        script.src = `https://maps.googleapis.com/maps/api/js?key=API_KEY&callback=initMap`;
         script.async = true;
         script.defer = true;
         script.onload = initMap; // Call initMap when script is loaded
